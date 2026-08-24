@@ -1,0 +1,12 @@
+name: Teste CI
+
+on:
+  pull_request:
+
+jobs:
+  teste:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Verificar funcionamento
+        run: echo "Pipeline executada com sucesso!"
